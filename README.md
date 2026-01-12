@@ -3,7 +3,6 @@ Task 1 – Cloud Storage Setup (AWS S3)
  What is Amazon S3?
 Amazon Simple Storage Service (Amazon S3) is an object storage service that provides secure, scalable, and durable storage for data. It allows users to store and retrieve files from anywhere using the internet.
 
----
 
  Steps Followed
 1. Created an AWS Free Tier account.
@@ -15,19 +14,20 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that prov
 7. Configured access permissions.
 8. Verified successful upload and access.
 
----
 
  Screenshots- Bucket creation  
-  ![Bucket Creation](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/daafa6744729e62cb331e8107dc621f8b5b14c4f/Bucket.png)
+  ![Bucket Creation](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/2c226d5a74a5b1cc45ffa892b6ef69df14cd9b0c/Bucket.png)
 
 - Files uploaded  
-  ![Files Uploaded]([screenshots/files-uploaded.png](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/daafa6744729e62cb331e8107dc621f8b5b14c4f/FileUpload.png)
+  ![Files Uploaded](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/2c226d5a74a5b1cc45ffa892b6ef69df14cd9b0c/File_upload.png)
+
+ - File txt
+  ![Files txt](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/2c226d5a74a5b1cc45ffa892b6ef69df14cd9b0c/File_txt.png)
+   
 
 - Permissions configuration  
-  ![Permissions](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/daafa6744729e62cb331e8107dc621f8b5b14c4f/IAM_USER.png)
+  ![Permissions](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/2c226d5a74a5b1cc45ffa892b6ef69df14cd9b0c/Permission.png)
 
 
----
-
-## ✅ Task Status
+ ✅ Task Status
 Completed successfully.
