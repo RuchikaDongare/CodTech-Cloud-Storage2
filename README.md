@@ -1,33 +1,22 @@
-Task 1 – Cloud Storage Setup (AWS S3)
+Task 2: Cloud Monitoring & Alerts using AWS CloudWatch
 
- What is Amazon S3?
-Amazon Simple Storage Service (Amazon S3) is an object storage service that provides secure, scalable, and durable storage for data. It allows users to store and retrieve files from anywhere using the internet.
+ EC2 Instance
+- AMI: Amazon Linux 2023 (x86)
+- Instance Type: t3.micro (Free Tier)
+- Key Pair: cloudwatch-key.pem
+- Security Group: SSH allowed (0.0.0.0/0)
 
+Steps Performed
+1. Launched EC2 instance
+2. Connected via SSH using Public IP
+3. Installed stress tool and generated CPU load
+4. Created CloudWatch CPU Utilization Alarm (>70%)
+5. Configured SNS Topic and Email alerts
+6. Verified email alert received
+7. Created CloudWatch Dashboard with CPU, Network In, and Disk metrics
 
- Steps Followed
-1. Created an AWS Free Tier account.
-2. Logged in to AWS Management Console.
-3. Opened Amazon S3 service.
-4. Created a new S3 bucket.
-5. Selected region and configured bucket settings.
-6. Uploaded sample files to the bucket.
-7. Configured access permissions.
-8. Verified successful upload and access.
-
-
- Screenshots- Bucket creation  
-  ![Bucket Creation](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/2c226d5a74a5b1cc45ffa892b6ef69df14cd9b0c/Bucket.png)
-
-- Files uploaded  
-  ![Files Uploaded](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/2c226d5a74a5b1cc45ffa892b6ef69df14cd9b0c/File_upload.png)
-
- - File txt
-  ![Files txt](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/2c226d5a74a5b1cc45ffa892b6ef69df14cd9b0c/File_txt.png)
-   
-
-- Permissions configuration  
-  ![Permissions](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/2c226d5a74a5b1cc45ffa892b6ef69df14cd9b0c/Permission.png)
-
-
- ✅ Task Status
-Completed successfully.
+Screenshots
+![EC2 Instance Running](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/9c9a8be365412fd83340b0008b9ca0f922caac86/EC2%20Instances.png)
+![CPU Alarm Created](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/9c9a8be365412fd83340b0008b9ca0f922caac86/HIGHCPU_ALARM.png)
+![SNS Email Alert](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/9c9a8be365412fd83340b0008b9ca0f922caac86/HIGH_ALARm_MAIL.jpeg)
+![CloudWatch Dashboard](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/9c9a8be365412fd83340b0008b9ca0f922caac86/CloudWatch_dashboard.png)
