@@ -1,8 +1,8 @@
-# Multi-Cloud Data Transfer with AWS and GCP
+Multi-Cloud Data Transfer with AWS and GCP
 
-![](https://github.com/AKSHAT242002/Cloud-Computing-CODTECH/blob/2aa45e29da724176191ab9c3f77d582c39a0c2b3/Task%203/transferring%20from%20s3%20to%20gcs.png)
+![](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/0890ae29b66c58bdbcd30828d2fcb3edf2c6c66c/Task%203/first.jpeg)
 
-# Introducing Today's Project!
+Introducing Today's Project!
 
 - In this project, I will demonstrate how to build a multi-cloud storage system by backing up data from AWS S3 to Google Cloud Storage. I'm doing this project to learn how to connect cloud platforms and automate cross-cloud data transfers.
 
@@ -36,20 +36,20 @@
 - Files are ultimately stored, retrieved, or processed here.
 - Offers scalability, durability, and cross‑cloud accessibility.
 
-![](https://github.com/AKSHAT242002/Cloud-Computing-CODTECH/blob/733b954ac43c794046ca91686a270d109e78ff75/Task%203/architecture.jpeg)
+![](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/b6579adeef3621512bd6172f706d841c782cf30c/Task%203/architecture.jpeg)
 
 
 # Setting up Data in S3
 
 - I started this project by setting up a new S3 bucket named nextwork-data-transfer-source-[myname] in the AWS Management Console. I uploaded a few sample files to the bucket to serve as the data source for the upcoming transfer to GCP.
 
-![](https://github.com/AKSHAT242002/Cloud-Computing-CODTECH/blob/4b0bf48e106566ca941f16fc5cf19314c2dcf105/Task%203/setting%20up%20data.png)
+![](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/b6579adeef3621512bd6172f706d841c782cf30c/Task%203/Setting%20up%20data.jpeg)
 
 # Setting up GCP
 
 - Google Cloud Platform is a suite of cloud services by Google, offering storage, compute, databases, and more. I set up a GCP account to create a destination for data from AWS S3 and to use Storage Transfer Service for cross-cloud backups.
 
-![](https://github.com/AKSHAT242002/Cloud-Computing-CODTECH/blob/d84000ef07cee9fa1099ccc9d71cee6e7cf600f7/Task%203/Screenshot%202026-01-27%20235303.png)
+![](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/b6579adeef3621512bd6172f706d841c782cf30c/Task%203/Google_cloud.png)
 
 # Storage Transfer
 
@@ -59,7 +59,7 @@
 
 - There are two different types of transfers you could set up: batch and event-driven. The difference is that batch runs on a set schedule or once, while event-driven automatically transfers data when changes happen in the source.
 
-![](https://github.com/AKSHAT242002/Cloud-Computing-CODTECH/blob/2386242b0c151837132ec6454539470ce0a1d313/Task%203/storage%20transfer.png)
+![](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/b6579adeef3621512bd6172f706d841c782cf30c/Task%203/Storage%20Transfer.jpeg)
 
  Granting GCP Access to AWS
 
@@ -69,7 +69,7 @@
 
 - Within the IAM role, I needed a custom trust policy to securely allow GCP access. The policy uses a subject ID, which uniquely identifies my GCP project’s service account and ensures only it can access the S3 bucket.
 
-![]()
+![](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/b6579adeef3621512bd6172f706d841c782cf30c/Task%203/granting%20gcp%20access.jpeg)
   
 Transferring from S3 to GCS!
 
@@ -77,7 +77,7 @@ Transferring from S3 to GCS!
 
 - I verified my data transfer was successful by checking my GCP Cloud Storage bucket. After the transfer job completed successfully, I navigated to the bucket in the GCP console and refreshed the page. The files from my S3 bucket were listed in GCP.
 
-![]()
+![](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/b6579adeef3621512bd6172f706d841c782cf30c/Task%203/transffering%20from%20s3%20to%20gcs.jpeg)
 
 Transfer with a Manifest
 
