@@ -20,4 +20,4 @@
 - Files are ultimately stored, retrieved, or processed here.
 - Offers scalability, durability, and cross‑cloud accessibility.
 
-![](https://github.com/AKSHAT242002/Cloud-Computing-CODTECH/blob/733b954ac43c794046ca91686a270d109e78ff75/Task%203/architecture.jpeg)
+![](https://github.com/RuchikaDongare/CodTech-Cloud-Storage2/blob/b6579adeef3621512bd6172f706d841c782cf30c/Task%203/architecture.jpeg)
